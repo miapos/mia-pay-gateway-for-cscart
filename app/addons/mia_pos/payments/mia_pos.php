@@ -63,6 +63,8 @@ function processPaymentRequest($order_info, $processor_data)
             'callbackUrl' => fn_url('payment_notification.return?payment=mia_pos', 'C'),
             'successUrl' => fn_url('payment_notification.success?payment=mia_pos&orderId=' . $order_id . '&salt=' . $salt, 'C'),
             'failUrl' => fn_url('payment_notification.fail?payment=mia_pos&orderId=' . $order_id . '&salt=' . $salt, 'C'),
+            'directRedirect' => $processor_data['processor_params']['payment_type'] === 'qr'
+                && $processor_data['processor_params']['direct_redirect'] === 'Y',
         ];
 
         // Log payment request data

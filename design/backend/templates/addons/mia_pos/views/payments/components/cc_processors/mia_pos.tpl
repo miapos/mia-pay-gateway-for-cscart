@@ -77,6 +77,18 @@
     </div>
 
     <div class="control-group">
+        <label class="control-label" for="mia_pos_direct_redirect">
+            {__("mia_pos.direct_redirect")}:
+        </label>
+        <div class="controls">
+            <input type="checkbox" name="payment_data[processor_params][direct_redirect]" id="mia_pos_direct_redirect" value="Y" {if $processor_params.direct_redirect == 'Y'}checked{/if}>
+            <p class="muted description">
+                {__("mia_pos.direct_redirect_description")}
+            </p>
+        </div>
+    </div>
+
+    <div class="control-group">
         <label class="control-label" for="mia_pos_language">
             {__("mia_pos.language")}:
         </label>
