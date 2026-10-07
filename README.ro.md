@@ -38,6 +38,7 @@ MIA POS, furnizat de Finergy Tech, permite procesarea sigură a plăților folos
     - **Plata reușită**: Statut pentru plățile finalizate cu succes.
     - **Plata eșuată**: Statut pentru plățile nereușite.
 6. **Limbă**: Selectați limba preferată pentru pagina de plată (RO, RU, EN).
+7. **Redirect Direct** *(opțional)*: Când este activat și tipul de plată este QR, utilizatorii mobili sunt redirecționați automat către aplicația bancară la deschiderea paginii de checkout, fără a fi necesară apăsarea manuală a unui buton. Pagina continuă să verifice statusul plății în fundal și redirecționează către URL-ul de succes/eșec la finalizare.
 
 ## Testare
 1. Utilizați mediul de test MIA POS și datele de test furnizate de Finergy Tech.

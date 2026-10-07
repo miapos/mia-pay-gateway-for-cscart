@@ -38,6 +38,7 @@ MIA POS, provided by Finergy Tech, allows secure payment processing using QR cod
     - **Successful Payment**: Status when the payment is completed successfully.
     - **Failed Payment**: Status when the payment fails.
 6. **Language**: Choose the preferred language for the payment page (RO, RU, EN).
+7. **Direct Redirect** *(optional)*: When enabled and Payment Type is QR, mobile users are automatically redirected to the banking app when the checkout page opens, without needing to tap a button manually. The page continues polling payment status in the background and redirects to the success/fail URL upon completion.
 
 ## Testing
 1. Use the MIA POS test environment and credentials provided by Finergy Tech.

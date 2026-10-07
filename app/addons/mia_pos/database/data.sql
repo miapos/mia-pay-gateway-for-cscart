@@ -85,6 +85,14 @@ INSERT INTO ?:language_values (lang_code, name, value) VALUES
     ('ro', 'mia_pos.language_description', 'Selectați limba care va fi utilizată pentru pagina de plată.'),
     ('ru', 'mia_pos.language_description', 'Выберите язык, который будет использоваться на странице оплаты.'),
 
+    ('en', 'mia_pos.direct_redirect', 'Direct redirect (QR only)'),
+    ('ro', 'mia_pos.direct_redirect', 'Redirecționare directă (doar QR)'),
+    ('ru', 'mia_pos.direct_redirect', 'Прямой переход (только QR)'),
+
+    ('en', 'mia_pos.direct_redirect_description', 'On phones, open the buyer\'s banking app straight from the checkout page.'),
+    ('ro', 'mia_pos.direct_redirect_description', 'Pe telefon, deschide aplicația bancară a cumpărătorului direct din pagina de plată.'),
+    ('ru', 'mia_pos.direct_redirect_description', 'На телефоне сразу открывает банковское приложение покупателя со страницы оплаты.'),
+
     ('en', 'mia_pos.ok_url', 'Ok URL'),
     ('ro', 'mia_pos.ok_url', 'Ok URL'),
     ('ru', 'mia_pos.ok_url', 'Ok URL'),
